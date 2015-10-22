@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "02FB117FFEDBA6F73C681C5A0C2432DFBE885B82",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "02FB117FFEDBA6F73C681C5A0C2432DFBE885B82" : 0,
+    "CC7D4C83F89543DC5D7313A87002A3A288282EF1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "784ECA59-8042-467E-94B9-1137558B0EB4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "02FB117FFEDBA6F73C681C5A0C2432DFBE885B82" : "Clima\/",
+    "CC7D4C83F89543DC5D7313A87002A3A288282EF1" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Clima",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Clima.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/londonappbrewery\/Clima.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "02FB117FFEDBA6F73C681C5A0C2432DFBE885B82"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/londonappbrewery\/Vixion.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CC7D4C83F89543DC5D7313A87002A3A288282EF1"
+    }
+  ]
+}
