@@ -9,20 +9,14 @@
 import UIKit
 
 
-
-//TODO: Declare your Enum here
-
-
-
 class WeatherViewController: UIViewController {
     
     //Constants
-    let LOCATION_URL = "http://openweathermap.org/data/2.5/forecast"
-    let CITY_URL = "http://api.openweathermap.org/data/2.5/weather?q="
-    let APP_ID = "&appid=bd82977b86bf27fb59a04b61b657fb6f"
+    let WEATHER_URL = "http://api.openweathermap.org/data/2.5/weather"
+    let APP_ID = "e72ca729af228beabd5d20e3b7749713"
     
 
-    //TODO: Declare some variables here.
+    //TODO: Declare instance variables here.
     
 
     
@@ -35,20 +29,12 @@ class WeatherViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //TODO:Set up the location manager here.
-      
+        
+    //TODO:Set up the location manager here.
+    
+        
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    //TODO: Write the updateWeatherWithLocation method here:
-    
-    
-
-    //TODO: Write the updateWeatherWithCityName method here:
     
     
     
@@ -67,11 +53,9 @@ class WeatherViewController: UIViewController {
     /***************************************************************/
    
     
-    //Write the updateWeatherDataFromLocation method here:
+    //Write the updateWeatherData method here:
     
-    
-    
-    //Write the updateWeatherDataWithCityName method here:
+
     
     
     
@@ -82,6 +66,7 @@ class WeatherViewController: UIViewController {
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
         return .LightContent
     }
+    
     
     //Write the updateUIWithWeatherData method here:
     
