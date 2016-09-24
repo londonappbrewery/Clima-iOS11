@@ -8,7 +8,7 @@ Download the starter project files as .zip and extract to your desktop.
 
 ## Fix for Cocoapods v1.0.1 and below
 
-    post_install do |installer|
+```post_install do |installer|
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
       config.build_settings['SWIFT_VERSION'] = '3.0'
@@ -16,7 +16,7 @@ Download the starter project files as .zip and extract to your desktop.
     end
   end
 end
-
+```
 
 
 Copyright 2015 London App Brewery
