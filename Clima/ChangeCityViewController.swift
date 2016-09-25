@@ -9,7 +9,7 @@
 import UIKit
 
 
-//Write the protocol declartion here:
+//Write the protocol declaration here:
 
 
 
@@ -23,15 +23,17 @@ class ChangeCityViewController: UIViewController {
 
     
     //This is the IBAction that gets called when the user taps on the "Get Weather" button:
-    @IBAction func getWeatherPressed(sender: AnyObject) {
-        
-        //Get the city name the user entered in the text field
+    @IBAction func getWeatherPressed(_ sender: AnyObject) {
         
         
-        // If we have a delegate set, call the method userEnteredANewCityName
+        
+        //1 Get the city name the user entered in the text field
         
         
-        //dismiss the Change City View Controller to go back to the WeatherViewController
+        //2 If we have a delegate set, call the method userEnteredANewCityName
+        
+        
+        //3 dismiss the Change City View Controller to go back to the WeatherViewController
         
         
     }
@@ -39,8 +41,8 @@ class ChangeCityViewController: UIViewController {
     
 
     //This is the IBAction that gets called when the user taps the back button. It dismisses the ChangeCityViewController.
-    @IBAction func backButtonPressed(sender: AnyObject) {
-        self.dismissViewControllerAnimated(true, completion: nil)
+    @IBAction func backButtonPressed(_ sender: AnyObject) {
+        self.dismiss(animated: true, completion: nil)
     }
     
 }

@@ -16,7 +16,7 @@ class WeatherViewController: UIViewController {
     let APP_ID = "e72ca729af228beabd5d20e3b7749713"
     
 
-    //TODO: Declare instance variables here.
+    //TODO: Declare instance variables here
     
 
     
@@ -62,11 +62,6 @@ class WeatherViewController: UIViewController {
     //MARK: - UI Updates
     /***************************************************************/
     
-    //This method sets the status bar to white.
-    override func preferredStatusBarStyle() -> UIStatusBarStyle {
-        return .LightContent
-    }
-    
     
     //Write the updateUIWithWeatherData method here:
     
@@ -96,7 +91,6 @@ class WeatherViewController: UIViewController {
     //Write the userEnteredANewCityName Delegate method here:
     
 
-    
     
     //Write the PrepareForSegue Method here
     
