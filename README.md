@@ -42,4 +42,4 @@ end
 ```
 
 
-Copyright 2015 London App Brewery
+Copyright 2016 London App Brewery
