@@ -22,10 +22,6 @@ end
 ## Fix for App Transport Security Override
 
 ```XML
-<key>NSLocationUsageDescription</key>
-	<string>We need your location to obtain your current weather conditions</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>We need your location to obtain your current weather conditions</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSExceptionDomains</key>
