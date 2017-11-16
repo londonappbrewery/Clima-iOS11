@@ -34,7 +34,7 @@ class WeatherDataModel {
 //        case 701...771 :
 //            return "fog"
 //        
-//        case 772...800 :
+//        case 772...799 :
 //            return "tstorm3"
 //        
 //        case 800 :
