@@ -6,6 +6,19 @@
 	<string>We need your location to obtain your curent weather condition</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>We need your location to obtain your curent weather condition</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSExceptionDomains</key>
+        <dict>
+            <key>openweathermap.org</key>
+            <dict>
+                <key>NSIncludesSubdomains</key>
+                <true/>
+                <key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+                <true/>
+            </dict>
+        </dict>
+    </dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
